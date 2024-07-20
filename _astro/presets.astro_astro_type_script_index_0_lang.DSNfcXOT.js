@@ -1,1 +1,0 @@
-import{u as s,a}from"./store.BlYhg_et.js";class n extends HTMLElement{constructor(){super(),this.addEventListener("click",e=>{if(e.target instanceof HTMLButtonElement){const t=e.target.dataset.preset;t&&s(t),"random"in e.target.dataset&&a()}})}}customElements.define("preset-picker",n);
