@@ -1,3 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>FOU.FAN | 博客</title><description>FouFan&apos;s Blog</description><link>https://fou.fan/</link><language>zh-CN</language><item><title>My first blog post</title><link>https://fou.fan/blog/2024/my-first-blog-post/</link><guid isPermaLink="true">https://fou.fan/blog/2024/my-first-blog-post/</guid><pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Hello&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>FOU.FAN | 博客</title><description>FouFan&apos;s Blog</description><link>https://fou.fan/</link><language>zh-CN</language><item><title>AI 对我工作上的帮助</title><link>https://fou.fan/blog/2024/ai%E7%BB%99%E4%BA%88%E6%88%91%E7%9A%84%E5%B8%AE%E5%8A%A9/</link><guid isPermaLink="true">https://fou.fan/blog/2024/ai%E7%BB%99%E4%BA%88%E6%88%91%E7%9A%84%E5%B8%AE%E5%8A%A9/</guid><pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; 记录一下我工作中用到的AI软件。&lt;/p&gt;
+&lt;p&gt;import { LinkCard } from &amp;#39;@astrojs/starlight/components&amp;#39;;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</content:encoded></item><item><title>My first blog post</title><link>https://fou.fan/blog/2024/my-first-blog-post/</link><guid isPermaLink="true">https://fou.fan/blog/2024/my-first-blog-post/</guid><pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Hello&lt;/h2&gt;
 &lt;p&gt;Hello world!&lt;/p&gt;
 </content:encoded></item></channel></rss>
