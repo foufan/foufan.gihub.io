@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/logo-a.png"><meta name="generator" content="Astro v5.0.3"><!-- Canonical URL --><link rel="canonical" href="https://example.com/blog/%E4%BD%BF%E7%94%A8-github-actions-%E6%9D%A5%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2-astor/"><!-- Primary Meta Tags --><title>GitHub Actions 自动化部署Astor</title><meta name="title" content="GitHub Actions 自动化部署Astor"><meta name="description" content="GitHub Actions 自动化部署Astor"><link rel="stylesheet" href="/_astro/about.D9xzsBLk.css">
+<!DOCTYPE html><html lang="zh-CN"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/logo-a.png"><meta name="generator" content="Astro v5.0.4"><!-- Canonical URL --><link rel="canonical" href="https://fou.fan/blog/%E4%BD%BF%E7%94%A8-github-actions-%E6%9D%A5%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2-astor/"><!-- Primary Meta Tags --><title>GitHub Actions 自动化部署Astor</title><meta name="title" content="GitHub Actions 自动化部署Astor"><meta name="description" content="GitHub Actions 自动化部署Astor"><link rel="stylesheet" href="/_astro/about.D9xzsBLk.css">
 <style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
 </style></head> <body class="bg-gray-50 text-gray-900 antialiased"> <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200 shadow-sm"> <div class="container mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex items-center justify-between h-16"> <!-- Logo Section --> <h2 class="text-xl font-bold"> <a href="/" class="text-gray-900 hover:text-primary-600 transition-colors flex items-center space-x-2"> <!-- Optional: Logo Icon --> <span class="w-8 h-8 rounded-full bg-gradient-to-br from-primary-600 to-primary-400 text-white flex items-center justify-center font-semibold text-xl">
 FF
@@ -11,8 +11,7 @@ FF
 <li><strong>生成 SSH 密钥对：</strong>
 在本地生成一个 SSH 密钥对，如果没有的话：</li>
 </ol>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="shell"><code><span class="line"><span style="color:#B392F0">ssh-keygen</span><span style="color:#79B8FF"> -t</span><span style="color:#9ECBFF"> rsa</span><span style="color:#79B8FF"> -b</span><span style="color:#79B8FF"> 4096</span><span style="color:#79B8FF"> -C</span><span style="color:#9ECBFF"> "your_email@example.com"</span></span>
-<span class="line"></span></code></pre>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="shell"><code><span class="line"><span style="color:#B392F0">ssh-keygen</span><span style="color:#79B8FF"> -t</span><span style="color:#9ECBFF"> rsa</span><span style="color:#79B8FF"> -b</span><span style="color:#79B8FF"> 4096</span><span style="color:#79B8FF"> -C</span><span style="color:#9ECBFF"> "your_email@example.com"</span></span></code></pre>
 <p>确保将公钥 (id_rsa.pub 文件内容) 添加到目标仓库 (your_repository.github.io) 的部署密钥中。</p>
 <ol start="2">
 <li><strong>生成 SSH 密钥对：</strong>
@@ -136,8 +135,7 @@ FF
 <span class="line"><span style="color:#79B8FF">          cd</span><span style="color:#9ECBFF"> deploy</span></span>
 <span class="line"><span style="color:#B392F0">          git</span><span style="color:#9ECBFF"> add</span><span style="color:#9ECBFF"> .</span></span>
 <span class="line"><span style="color:#B392F0">          git</span><span style="color:#9ECBFF"> commit</span><span style="color:#79B8FF"> -m</span><span style="color:#9ECBFF"> "Deploy to GitHub Pages"</span></span>
-<span class="line"><span style="color:#B392F0">          git</span><span style="color:#9ECBFF"> push</span><span style="color:#9ECBFF"> origin</span><span style="color:#9ECBFF"> gh-pages</span></span>
-<span class="line"></span></code></pre>
+<span class="line"><span style="color:#B392F0">          git</span><span style="color:#9ECBFF"> push</span><span style="color:#9ECBFF"> origin</span><span style="color:#9ECBFF"> gh-pages</span></span></code></pre>
 <h2 id="注意事项">注意事项：</h2>
 <ul>
 <li>替换 <code>dist</code> 为你实际的编译输出目录。</li>
